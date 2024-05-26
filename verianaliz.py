@@ -14,7 +14,7 @@ def istatistik_ve_gorsellestirme(veri):
     minimum = np.min(veri_array)
     maksimum = np.max(veri_array)
 
-    # Veriyi pandas DataFrame'e dönüştür
+    # Veriyi pandas DataFrame'e dönüştürüyoruz
     veri_df = pd.DataFrame(veri_array, columns=['Değerler'])
 
     # Histogram çizimi
@@ -39,7 +39,7 @@ def istatistik_ve_gorsellestirme(veri):
     plt.grid(True)
     plt.show()
 
-    # Sonuçları yazdır
+    # Sonuçları yazdırıyorum
     print("İstatistikler:")
     print("Ortalama:", ortalama)
     print("Medyan:", medyan)
@@ -48,7 +48,7 @@ def istatistik_ve_gorsellestirme(veri):
     print("Maksimum Değer:", maksimum)
 
 
-# Kullanıcıdan veri girişi al
+# Kullanıcıdan veri girişi alıyor
 veri = input("Lütfen veriyi virgülle ayırarak girin: ").split(',')
 veri = [float(x.strip()) for x in veri]
 
