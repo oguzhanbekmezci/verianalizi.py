@@ -1,1 +1,1 @@
-# verianalizi.py
+# verianalizi.py kodu bizlere verdiğimiz değerlerin ; ortalama , medyan , standart sapma , minimum ve maksimum değerlerini görsel halde sunacak ve histogram grafiği çizdirecektir .istatistikler hesapları yaparak görselleştirecektir .
